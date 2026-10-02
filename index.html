@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/web_logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VRV Group Pvt Ltd</title>
+  <script>
+    // Prevent browser extension communication errors (e.g. React DevTools/adblockers) from cluttering console
+    (function () {
+      try {
+        if (window.chrome && window.chrome.runtime) {
+          const origSendMessage = window.chrome.runtime.sendMessage;
+          if (typeof origSendMessage === 'function') {
+            window.chrome.runtime.sendMessage = function (...args) {
+              const lastArg = args[args.length - 1];
+              if (typeof lastArg !== 'function') {
+                args.push(function () {
+                  if (window.chrome && window.chrome.runtime && window.chrome.runtime.lastError) {
+                    // silently acknowledge to prevent Chrome from logging unchecked lastError
+                  }
+                });
+              } else {
+                args[args.length - 1] = function (...cbArgs) {
+                  if (window.chrome && window.chrome.runtime && window.chrome.runtime.lastError) {
+                    // acknowledged
+                  }
+                  return lastArg.apply(this, cbArgs);
+                };
+              }
+              try {
+                return origSendMessage.apply(window.chrome.runtime, args);
+              } catch (_) {}
+            };
+          }
+        }
+      } catch (_) {}
+
+      const origError = console.error;
+      console.error = function (...args) {
+        if (args.some(arg => typeof arg === 'string' && (arg.includes('message port closed') || arg.includes('runtime.lastError')))) {
+          return;
+        }
+        origError.apply(console, args);
+      };
+      window.addEventListener('error', function (e) {
+        if (e.message && (e.message.includes('message port closed') || e.message.includes('runtime.lastError'))) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function (e) {
+        const reason = e.reason ? (e.reason.message || String(e.reason)) : '';
+        if (reason.includes('message port closed') || reason.includes('runtime.lastError')) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
