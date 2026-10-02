@@ -10,10 +10,10 @@ import {
   Sparkles,
 } from 'lucide-react'
 
-import BookingModal from '../../../../../VRV-Group-Pvt-Ltd-/src/components/Tours/Home/BookingModal'
-import ItinerarySection from '../../../../../VRV-Group-Pvt-Ltd-/src/components/Tours/Home/ItinerarySection'
-import tourPackageData from '../../../../../VRV-Group-Pvt-Ltd-/src/data/tourPackageData.app.json'
-import { BrajYatraRouteTexture } from '../../../../../VRV-Group-Pvt-Ltd-/src/components/common/PageTextures'
+import BookingModal from '../../components/Tours/Home/BookingModal'
+import ItinerarySection from '../../components/Tours/Home/ItinerarySection'
+import tourPackageData from '../../data/tourPackageData.app.json'
+import { BrajYatraRouteTexture } from '../../components/common/PageTextures'
 
 export default function PackageDetails() {
   const { id } = useParams()

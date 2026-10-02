@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy: #1B2A55;      /* header & footer background */
+  --color-gold: #C9A227;      /* accent / highlight text */
+  --color-text-body: #24304F; /* main body text */
+  --color-text-muted: #6B7280;/* secondary text */
+  --color-bg-light: #F5F5F3;  /* light section background */
+  --color-white: #FFFFFF;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: var(--color-text-body);
+  background-color: var(--color-white);
+}
+
+header, footer {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+}
+
+.accent-text,
+.highlight {
+  color: var(--color-gold);
+}
+
+.section-bg {
+  background-color: var(--color-bg-light);
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden !important;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+/* Base custom styles & buttons */
+.btn-gold {
+  @apply inline-flex items-center justify-center gap-2 bg-gold hover:bg-[#b88e16] text-white font-bold px-6 py-3 rounded-md text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 active:scale-95 cursor-pointer;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 border border-white/40 bg-white/10 hover:bg-white hover:text-navy text-white font-semibold px-6 py-3 rounded-md text-sm transition-all duration-300 backdrop-blur-sm hover:-translate-y-0.5 active:translate-y-0 active:scale-95 cursor-pointer;
+}
+
+.eyebrow {
+  @apply text-xs font-bold uppercase tracking-widest text-gold;
+}
+
+/* Interactive Card Hover Utilities */
+.interactive-card {
+  @apply transition-all duration-300 hover:-translate-y-1.5 hover:shadow-luxury;
+}
+
+/* Cross-Browser Luxury Glassmorphism */
+.glass-panel-dark {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(11, 22, 51, 0.30) 100%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) !important;
+  backdrop-filter: blur(14px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.45), inset 0 1px 1px 0 rgba(255, 255, 255, 0.35) !important;
+}
+
+.glass-panel-light {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.55) 100%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) !important;
+  backdrop-filter: blur(14px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.80) !important;
+  box-shadow: 0 20px 45px -12px rgba(15, 23, 42, 0.18), inset 0 1px 2px 0 rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Page Transition Entrance */
+.page-enter {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Shimmer Glow Effect */
+.shimmer-btn {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-btn::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.25) 50%,
+    transparent 80%
+  );
+  transform: translateX(-100%);
+  transition: transform 0.75s ease;
+}
+.shimmer-btn:hover::after {
+  transform: translateX(100%);
+}
+
+/* Ethereal & Heavenly Animation Keyframes - GPU Accelerated */
+@keyframes celestialBreathe {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.08) translate3d(0, -6px, 0);
+  }
+}
+
+@keyframes divineFloat {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -8px, 0);
+  }
+}
+
+@keyframes sacredPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(201, 162, 39, 0.2);
+    border-color: rgba(201, 162, 39, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(201, 162, 39, 0.55);
+    border-color: rgba(201, 162, 39, 0.8);
+  }
+}
+
+@keyframes goldShimmerRay {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.heavenly-aura {
+  animation: celestialBreathe 7s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.divine-float {
+  animation: divineFloat 4.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.sacred-glow {
+  animation: sacredPulse 4s ease-in-out infinite;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #ffd700 0%, #c9a227 50%, #fff2a8 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmerRay 6s linear infinite;
+}
+
+/* Seamless Infinite Marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@layer components {
+  .field {
+    @apply h-10 min-w-0 rounded-md border border-slate-200 bg-white px-3 flex items-center gap-2 text-xs text-slate-500 outline-none transition-all duration-200;
+  }
+  .field:focus-within {
+    @apply border-gold ring-2 ring-gold/20 shadow-sm;
+  }
+  .field input {
+    @apply w-full min-w-0 outline-none bg-transparent text-body placeholder:text-slate-400;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  max-width: 100%;
+}
+
+.leaflet-control-attribution {
+  font-size: 9px;
+}

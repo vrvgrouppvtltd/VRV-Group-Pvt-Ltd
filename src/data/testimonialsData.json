@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Akash agarwal",
+    "role": "Pilgrim from New Delhi",
+    "rating": 5,
+    "quote": "The pilgrimage completely transformed my perspective. A deeply spiritual and meticulously organized journey that allowed me to focus entirely on inward reflection without worrying about external logistics."
+  },
+  {
+    "id": 2,
+    "name": "Anupam vera",
+    "role": "Senior Citizen Yatri",
+    "rating": 5,
+    "quote": "Every detail was considered. From the serene accommodations to the knowledgeable guides, I felt guided both physically and spiritually. A true sanctuary in motion."
+  },
+  {
+    "id": 3,
+    "name": "Mayank Gupta",
+    "role": "Family Yatra Lead",
+    "rating": 5,
+    "quote": "Finding quiet confidence amidst the historic sacred sites of Vrindavan was an experience I will cherish forever. Highly recommended for the seeking soul."
+  },
+  {
+    "id": 4,
+    "name": "Uttam solanki",
+    "role": "Devotee from Mumbai",
+    "rating": 5,
+    "quote": "A seamless blend of legacy and modern comfort. The VRV Group delivered an unparalleled sanctuary away from the noise, providing clarity I hadn't felt in years."
+  },
+  {
+    "id": 5,
+    "name": "priyam yadav",
+    "role": "Executive Yatri & Pilgrim",
+    "rating": 5,
+    "quote": "From crowd-managed darshans at Banke Bihari Ji to Yamuna Aarti VIP vantage points, VRV Group handles every sacred detail with reverence and executive precision."
+  }
+]

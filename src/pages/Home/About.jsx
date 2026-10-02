@@ -299,7 +299,7 @@ export default function About() {
             className="mt-12 max-w-4xl mx-auto rounded-3xl p-5 sm:p-7 shadow-2xl relative overflow-hidden text-left"
           >
             <div className="absolute top-0 right-0 w-44 h-44 bg-gold/15 rounded-full blur-3xl pointer-events-none" />
-            
+
             <div className="flex items-center justify-between border-b border-white/10 pb-3.5 mb-4">
               <span className="text-[10px] font-extrabold uppercase tracking-widest text-gold bg-gold/15 border border-gold/30 px-2.5 py-0.5 rounded-md">
                 VRV Group Trust Markers
@@ -309,7 +309,7 @@ export default function About() {
               </span>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5 text-center">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5 text-center">
               <div className="p-3.5 rounded-2xl bg-white/[0.08] backdrop-blur-md border border-white/15 hover:border-gold/60 hover:bg-white/[0.14] transition-all duration-300 group">
                 <span className="text-2xl sm:text-3xl font-bold font-display text-white group-hover:text-gold transition-colors block">100%</span>
                 <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider mt-0.5 block">Legally Vetted</span>
@@ -321,10 +321,6 @@ export default function About() {
               <div className="p-3.5 rounded-2xl bg-white/[0.08] backdrop-blur-md border border-white/15 hover:border-gold/60 hover:bg-white/[0.14] transition-all duration-300 group">
                 <span className="text-2xl sm:text-3xl font-bold font-display text-white group-hover:text-gold transition-colors block">24/7</span>
                 <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider mt-0.5 block">Fleet Support</span>
-              </div>
-              <div className="p-3.5 rounded-2xl bg-white/[0.08] backdrop-blur-md border border-white/15 hover:border-gold/60 hover:bg-white/[0.14] transition-all duration-300 group">
-                <span className="text-2xl sm:text-3xl font-bold font-display text-white group-hover:text-gold transition-colors block">15+</span>
-                <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider mt-0.5 block">Years In Braj</span>
               </div>
             </div>
           </motion.div>

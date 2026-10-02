@@ -1,0 +1,325 @@
+[
+  {
+    "id": "vrindavan-4d3n",
+    "package_name": "Vrindavan & Mathura Divya Darshan",
+    "duration": "4 Days / 3 Nights",
+    "tagline": "Aadhyatmik Yatra, Divya Anubhav aur Yaadgaar Safar ke saath",
+    "price_inr": 30000,
+    "badge": "Most Popular Yatra",
+    "image": " /images/iternary_images/krishna_janmbhoomi.jpg",
+    "includes": [
+      "Comfortable Room Stay (3 Nights / 4 Days)",
+      "Delicious Food (Breakfast, Lunch, Dinner)",
+      "AC Car for Sightseeing & Transfers",
+      "Experienced Driver & Support",
+      "Safe, Reliable & Hassle Free Journey"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Vrindavan Temple Darshan",
+        "subtitle": "Day 1: Arrival & Banke Bihari Darshan",
+        "description": "Arrive in holy Vrindavan, settle into your accommodation, and experience divine evening darshan at Shri Banke Bihari Ji, Radha Raman Ji, and sacred Yamuna aarti at Keshi Ghat.",
+        "activities": [
+          "Banke Bihari Ji & Radha Raman Ji Darshan",
+          "Nidhivan Sacred Grove & ISKCON Temple",
+          "Evening Yamuna Aarti at Keshi Ghat",
+          "Return to hotel & overnight stay"
+        ],
+        "image": " /images/iternary_images/Bankebihari_temple.JPG",
+        "icon": "droplets"
+      },
+      {
+        "day": 2,
+        "title": "Mathura Janmasthan & Sacred Gokul",
+        "subtitle": "Day 2: Krishna Janmabhoomi & Gokul Dham",
+        "description": "Visit the sacred birthplace of Lord Krishna at Shri Krishna Janmasthan in Mathura, attend Vishram Ghat Yamuna aarti, and explore holy Raman Reti and Nand Bhawan in Gokul.",
+        "activities": [
+          "Shri Krishna Janmasthan, Mathura",
+          "Dwarkadhish Temple & Vishram Ghat",
+          "Gokul Dham, Nand Bhawan & Raman Reti",
+          "Chinta Haran Mahadev Temple"
+        ],
+        "image": " /images/iternary_images/krishna_janmbhoomi.jpg",
+        "icon": "sun"
+      },
+      {
+        "day": 3,
+        "title": "Govardhan Parikrama & Barsana Dham",
+        "subtitle": "Day 3: Govardhan Parikrama & Radha Rani Temple",
+        "description": "Perform the sacred Govardhan Hill Parikrama with Dan Ghati darshan, meditate at holy Radha Kund & Shyam Kund, and visit Shri Radha Rani Mandir in Barsana.",
+        "activities": [
+          "Govardhan Parikrama & Mansi Ganga",
+          "Radha Kund & Shyam Kund Darshan",
+          "Kusum Sarovar Heritage Reflection",
+          "Shri Radha Rani Mandir Barsana"
+        ],
+        "image": " /images/iternary_images/radharani_braj.jpg",
+        "icon": "flower"
+      },
+      {
+        "day": 4,
+        "title": "Heritage & Final Blessings",
+        "subtitle": "Day 4: Agra Heritage & Departure",
+        "description": "Witness the majestic morning view of the Taj Mahal and Agra Fort, followed by traditional Brajwasi souvenir shopping before your departure.",
+        "activities": [
+          "Taj Mahal Sunrise View & Agra Fort",
+          "Itmad-ud-Daulah (Baby Taj) Heritage Visit",
+          "Traditional Mathura Peda & Souvenir Shopping",
+          "Departure Transfer to Mathura Junction"
+        ],
+        "image": " /images/iternary_images/taj_mahal.jpg",
+        "icon": "compass"
+      }
+    ]
+  },
+  {
+    "id": "mathura-gokul-2d1n",
+    "package_name": "Mathura & Gokul Heritage Yatra",
+    "duration": "2 Days / 1 Night",
+    "tagline": "Discover Krishna Janmabhoomi, Yamuna Aarti & Sacred Gokul Dham",
+    "price_inr": 15000,
+    "badge": "Weekend Yatra",
+    "image": "  /images/iternary_images/Vishram_ghat.jpeg",
+    "includes": [
+      "AC Room Stay (1 Night)",
+      "Pure Vegetarian Meals (Breakfast & Dinner)",
+      "Dedicated Private AC Transport",
+      "Vrindavan & Mathura Local Guide",
+      "Priority Darshan Support"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Krishna Janmabhoomi & Yamuna Aarti",
+        "subtitle": "Day 1: Mathura Janmabhoomi & Vishram Ghat",
+        "description": "Begin your pilgrimage at the divine birthplace of Lord Krishna, offer prayers at historic Dwarkadhish Mandir, and attend the grand evening Yamuna Maha Aarti.",
+        "activities": [
+          "Shri Krishna Janmasthan Mandir",
+          "Historic Dwarkadhish Temple Darshan",
+          "Evening Yamuna Maha Aarti at Vishram Ghat",
+          "Overnight Stay at Vrindavan Hotel"
+        ],
+        "image": " /images/iternary_images/Vishram_ghat.jpeg",
+        "icon": "droplets"
+      },
+      {
+        "day": 2,
+        "title": "Sacred Gokul, Raman Reti & Vrindavan",
+        "subtitle": "Day 2: Gokul, Raman Reti & Banke Bihari",
+        "description": "Explore the holy sand trails of Raman Reti where Lord Krishna played in childhood, visit Nand Bhawan, and conclude with blessings at Vrindavan's Banke Bihari Ji.",
+        "activities": [
+          "Raman Reti Holy Sand & Chinta Haran",
+          "Nand Bhawan & 84 Khamba Heritage",
+          "Banke Bihari Ji & ISKCON Temple Darshan",
+          "Return Departure Transfer"
+        ],
+        "image": " /images/iternary_images/gokul.jpg",
+        "icon": "sun"
+      }
+    ]
+  },
+  {
+    "id": "goverdhan-barsana-3d2n",
+    "package_name": "Goverdhan & Barsana Sacred Parikrama",
+    "duration": "3 Days / 2 Nights",
+    "tagline": "Perform Divine Goverdhan Parikrama & Visit Radha Rani's Barsana Dham",
+    "price_inr": 22000,
+    "badge": "Parikrama Special",
+    "image": " /images/iternary_images/radharani_braj.jpg",
+    "includes": [
+      "Deluxe Hotel Stay (2 Nights)",
+      "Battery E-Rickshaw Parikrama Support",
+      "Breakfast & Dinner",
+      "Private AC Vehicle",
+      "24/7 Yatri Assistance"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Goverdhan Arrival, Mansi Ganga & Kusum Sarovar",
+        "subtitle": "Day 1: Goverdhan Arrival & Sacred Kunds",
+        "description": "Arrive in Govardhan Dham, take holy darshan of Mansi Ganga, and experience the twilight splendor of ancient sandstone chhatris at Kusum Sarovar.",
+        "activities": [
+          "Check-in at Govardhan Hotel",
+          "Mansi Ganga & Radha Kund Darshan",
+          "Kusum Sarovar Sunset Reflection"
+        ],
+        "image": " /images/iternary_images/govardhan_parikarma.jpg",
+        "icon": "droplets"
+      },
+      {
+        "day": 2,
+        "title": "Sacred 21 KM Govardhan Parikrama",
+        "subtitle": "Day 2: Complete Govardhan Parikrama",
+        "description": "Embark on the divine 21 KM Govardhan Hill Parikrama via comfortable battery e-rickshaw or walking, visiting Dan Ghati and Mukharbind temples.",
+        "activities": [
+          "Early Morning Govardhan 21km Parikrama (E-Rickshaw/Walking)",
+          "Dan Ghati & Mukharbind Mandir Darshan",
+          "Radha Kund & Shyam Kund Blessings"
+        ],
+        "image": " /images/iternary_images/daan_ghati.jpg",
+        "icon": "flower"
+      },
+      {
+        "day": 3,
+        "title": "Barsana Radha Rani Temple & Nandgaon",
+        "subtitle": "Day 3: Barsana Dham & Nandgaon Palace",
+        "description": "Climb the sacred Bhanugarh hill to visit Shri Radha Rani's palace temple in Barsana and explore Yashoda Nandan's home in Nandgaon.",
+        "activities": [
+          "Shri Radha Rani Mandir Barsana",
+          "Kirti Mandir Palace & Gardens",
+          "Nandgaon Palace Darshan & Departure Transfer"
+        ],
+        "image": " /images/iternary_images/nandgaon-temple.png",
+        "icon": "compass"
+      }
+    ]
+  },
+  {
+    "id": "braj-chaurasi-5d4n",
+    "package_name": "Grand Braj & Agra Heritage Special",
+    "duration": "5 Days / 4 Nights",
+    "tagline": "Comprehensive Chaurasi Kos Darshan plus Agra Taj Mahal & Heritage Monuments",
+    "price_inr": 38000,
+    "badge": "Grand Yatra",
+    "image": " /images/iternary_images/taj_mahal_l.jpeg",
+    "includes": [
+      "4-Star / Premium Hotel Stay (4 Nights)",
+      "All Gourmet Sattvik Meals Included",
+      "Luxury AC Tempo Traveller / SUV",
+      "Senior Temple Guide & Escort",
+      "VIP Entry & VIP Darshan Support"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Vrindavan Sacred Temples & Aarti",
+        "subtitle": "Day 1: Banke Bihari, Radha Raman & ISKCON",
+        "description": "Immerse in the devotion of Vrindavan with private VIP darshan at Banke Bihari Ji, Radha Raman, and attend evening aarti at Keshi Ghat.",
+        "activities": [
+          "Banke Bihari Ji & Radhavallabh Ji",
+          "ISKCON Temple & Nidhivan Darshan",
+          "Keshi Ghat Evening Yamuna Aarti"
+        ],
+        "image": " /images/iternary_images/radha_raman.jpg",
+        "icon": "droplets"
+      },
+      {
+        "day": 2,
+        "title": "Mathura Janmasthan, Gokul & Raman Reti",
+        "subtitle": "Day 2: Krishna Janmabhoomi & Childhood Sites",
+        "description": "Visit the sacred jail sanctum at Shri Krishna Janmabhoomi, attend Vishram Ghat ceremonies, and explore holy Gokul Dham.",
+        "activities": [
+          "Krishna Janmabhoomi Complex",
+          "Vishram Ghat Yamuna Boat Darshan",
+          "Gokul Dham & Raman Reti"
+        ],
+        "image":" /images/iternary_images/raman_bihari.jpg",
+        "icon": "sun"
+      },
+      {
+        "day": 3,
+        "title": "Govardhan Hill Parikrama & Barsana",
+        "subtitle": "Day 3: Govardhan Parikrama & Radha Rani Temple",
+        "description": "Participate in the auspicious Govardhan Hill Parikrama, visit Dan Ghati temple, holy Radha Kund, and climb Barsana's Radha Rani temple.",
+        "activities": [
+          "Govardhan Hill Parikrama Trail",
+          "Radha Kund, Shyam Kund & Kusum Sarovar",
+          "Barsana Shri Radha Rani Mandir"
+        ],
+        "image": " /images/iternary_images/kusum_sarovar.jpg",
+        "icon": "flower"
+      },
+      {
+        "day": 4,
+        "title": "Agra World Heritage Taj Mahal & Fort",
+        "subtitle": "Day 4: Taj Mahal Sunrise & Agra Fort",
+        "description": "Experience the breathtaking sunrise view of the Taj Mahal, explore Agra Fort, and visit traditional artisanal marble inlay workshops.",
+        "activities": [
+          "Taj Mahal Sunrise View",
+          "Agra Fort & Mehtab Bagh",
+          "Local Handicrafts & Famous Petha Shopping"
+        ],
+        "image": " /images/iternary_images/taj_mahal.jpg",
+        "icon": "sun"
+      },
+      {
+        "day": 5,
+        "title": "Kokilavan Shani Dev Dham & Final Blessings",
+        "subtitle": "Day 5: Kokilavan Parikrama & Departure",
+        "description": "Visit the renowned Kokilavan Shani Mandir for sacred parikrama and receive final auspicious Brajwasi blessings before departure.",
+        "activities": [
+          "Kokilavan Shani Dham Sacred Parikrama",
+          "Nandgaon Ancient Kund Darshan",
+          "Final Souvenir Shopping & Departure Transfer"
+        ],
+        "image": " /images/iternary_images/kokilavan.jpg",
+        "icon": "compass"
+      }
+    ]
+  },
+  {
+    "id": "vrindavan-prem-3d2n",
+    "package_name": "Vrindavan Prem & Bhakti Yatra",
+    "duration": "3 Days / 2 Nights",
+    "tagline": "Experience the divine temples, sacred ghats and spiritual atmosphere of Vrindavan Dham",
+    "price_inr": 18000,
+    "badge": "Vrindavan Special",
+    "image": " /images/iternary_images/iskcon.jpg",
+    "includes": [
+      "Comfortable AC Room Stay (2 Nights)",
+      "Breakfast & Dinner",
+      "Private AC Vehicle for Local Sightseeing",
+      "Vrindavan Temple Darshan Assistance",
+      "Experienced Driver & Yatri Support"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Divine Vrindavan Temple Darshan",
+        "subtitle": "Day 1: Banke Bihari, Radha Raman & Nidhivan",
+        "description": "Begin your spiritual journey in Vrindavan with darshan at the famous Banke Bihari Ji Temple, followed by Radha Raman Ji, Radha Vallabh Ji and the sacred Nidhivan area.",
+        "activities": [
+          "Arrival & Hotel Check-in",
+          "Shri Banke Bihari Ji Darshan",
+          "Radha Raman Ji & Radha Vallabh Ji Darshan",
+          "Nidhivan & Seva Kunj Visit",
+          "Evening Free Time in Vrindavan"
+        ],
+        "image": " /images/iternary_images/nidhivan.jpg",
+        "icon": "flower"
+      },
+      {
+        "day": 2,
+        "title": "ISKCON, Prem Mandir & Yamuna Aarti",
+        "subtitle": "Day 2: Spiritual Vrindavan & Sacred Yamuna Ghats",
+        "description": "Explore the peaceful and beautiful side of Vrindavan with ISKCON Temple, Prem Mandir,  and an evening visit to the sacred Keshi Ghat for Yamuna Aarti.",
+        "activities": [
+          "Morning Visit to ISKCON Temple",
+          "Prem Mandir Darshan & Garden Visit",
+          "Char Dham",
+          "Keshi Ghat & Yamuna Aarti",
+          "Local Vrindavan Bazaar & Souvenir Shopping"
+        ],
+        "image": " /images/iternary_images/iskcon.jpg",
+        "icon": "droplets"
+      },
+      {
+        "day": 3,
+        "title": "Govind Dev Ji, Rangji & Final Blessings",
+        "subtitle": "Day 3: Heritage Temples & Departure",
+        "description": "Complete your Vrindavan experience with the historic Govind Dev Ji Temple, Rangji Temple and other sacred sites before enjoying a relaxed departure transfer.",
+        "activities": [
+          "Govind Dev Ji Temple Darshan",
+          "Rangji Temple Visit",
+          "Madan Mohan Temple",
+          "Vrindavan Local Market",
+          "Final Blessings & Departure Transfer"
+        ],
+        "image": " /images/iternary_images/rangji-temple.jpg",
+        "icon": "compass"
+      }
+    ]
+  }
+]

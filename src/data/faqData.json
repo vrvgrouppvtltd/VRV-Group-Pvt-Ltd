@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "Luggage",
+    "question": "What should I pack for the pilgrimage?",
+    "answer": "We recommend bringing comfortable walking shoes, modest cotton clothing appropriate for temple visits, a lightweight shawl or jacket for evening river aartis, personal toiletries, and any daily prescription medications."
+  },
+  {
+    "id": 2,
+    "icon": "Users",
+    "question": "How large are the tour groups?",
+    "answer": "Our spiritual yatras are tailored for small, private family groups (1-2 pilgrims up to 10+), ensuring personalized attention, crowd management, and executive transport comfort."
+  },
+  {
+    "id": 3,
+    "icon": "Accessibility",
+    "question": "Are the sites accessible?",
+    "answer": "Yes! We specialize in accessible yatras for senior citizens and pilgrims with limited mobility. We arrange battery E-rickshaws, minimal walking routes, priority darshan passes, and dedicated wheelchair assistants."
+  },
+  {
+    "id": 4,
+    "icon": "ShieldCheck",
+    "question": "What medical support is available?",
+    "answer": "Our team travels with complete first-aid kits and maintains 24/7 doctor-on-call arrangements with premier local hospitals in  Vrindavan and Mathura for immediate assistance."
+  },
+  {
+    "id": 5,
+    "icon": "Utensils",
+    "question": "Do you cater to dietary restrictions?",
+    "answer": "All included meals are 100% pure vegetarian (Sattvik), prepared fresh under strict hygiene standards. Special Jain (no onion/garlic) or diabetic dietary needs are gladly catered to upon request."
+  },
+  {
+    "id": 6,
+    "icon": "HelpCircle",
+    "question": "What is your cancellation policy?",
+    "answer": "We offer flexible date rescheduling up to 48 hours prior to your journey date. In case of unexpected cancellations, transparent refund policies apply to ensure complete peace of mind."
+  }
+]

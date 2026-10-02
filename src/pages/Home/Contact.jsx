@@ -94,7 +94,7 @@ export default function Contact() {
               className="p-3.5 rounded-2xl flex items-center justify-center gap-2.5 shadow-xl text-white"
             >
               <MapPin size={17} className="text-gold shrink-0" />
-              <span className="text-xs font-semibold text-white">Omaxe Eternity, Vrindavan</span>
+              <span className="text-xs font-semibold text-white">104, Krishna 2C, Omaxe Eternity • Vrindavan • Mathura</span>
             </div>
             <div
               style={{
@@ -120,7 +120,7 @@ export default function Contact() {
               className="p-3.5 rounded-2xl flex items-center justify-center gap-2.5 shadow-xl text-white"
             >
               <Clock size={17} className="text-gold shrink-0" />
-              <span className="text-xs font-semibold text-white">8:00 AM – 9:00 PM (All 7 Days)</span>
+              <span className="text-xs font-semibold text-white">24*7 Available</span>
             </div>
           </div>
         </div>
@@ -186,7 +186,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-navy">Office Timings</h3>
                     <p className="text-slate-600 mt-0.5">
-                      Monday to Sunday: 8:00 AM – 9:00 PM
+                      Monday to Sunday: 24*7 Available
                     </p>
                   </div>
                 </div>
