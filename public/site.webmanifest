@@ -1,0 +1,16 @@
+{
+  "name": "VRV Group Car Rental",
+  "short_name": "VRV Rental",
+  "description": "Car Rental Service in Vrindavan & Mathuram",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1B2A55",
+  "icons": [
+    {
+      "src": "/assets/vrv-logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp"
+    }
+  ]
+}
