@@ -9,8 +9,6 @@ export const SITE_CONFIG = {
   fullAddress: "Flat No. 104, Krishna 2C, Omaxe Eternity, Vrindavan, Mathura, Uttar Pradesh – 281121",
   phone1: "8950513077",
   phone1Formatted: "+91 8950513077",
-  phone2: "9717324889",
-  phone2Formatted: "+91 9717324889",
   email: "vrvgroup.pvtltd@gmail.com",
   whatsappNumber: "918950513077",
   whatsappMessage: "Hello VRV Group, I am interested in property options in Mathura-Vrindavan.",

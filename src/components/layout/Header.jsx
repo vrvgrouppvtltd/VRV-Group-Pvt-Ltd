@@ -327,21 +327,6 @@ export default function Header() {
                         {SITE_CONFIG.phone1Formatted}
                       </span>
                     </a>
-
-                    <a
-                      href={`tel:${SITE_CONFIG.phone2}`}
-                      onClick={() => setPhoneOpen(false)}
-                      className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 transition"
-                    >
-                      <Phone
-                        size={14}
-                        className="text-gold shrink-0"
-                      />
-
-                      <span>
-                        {SITE_CONFIG.phone2Formatted}
-                      </span>
-                    </a>
                   </motion.div>
                 )}
               </AnimatePresence>

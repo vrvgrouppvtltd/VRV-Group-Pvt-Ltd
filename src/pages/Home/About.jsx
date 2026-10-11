@@ -128,7 +128,7 @@ export default function About() {
   const founders = [
     {
       name: 'Mr. Nishant Narwal',
-      role: 'Founder',
+      role: 'Co-Founder',
       tag: 'Strategic Vision',
       image: '/images/founder/nishant.jpeg',
       desc: "Helping shape VRV Group's strategic direction while driving partnerships, business growth, and long-term vision."
@@ -144,7 +144,7 @@ export default function About() {
       name: 'Mr. Pushkar',
       role: 'Co-Founder',
       tag: 'Partnerships',
-      image: '/images/founder/pushkar.jpeg',
+      image: "",
       desc: 'Supporting company operations, guest experience, and day-to-day coordination with a focus on trust and comfortable experiences.'
     },
     {

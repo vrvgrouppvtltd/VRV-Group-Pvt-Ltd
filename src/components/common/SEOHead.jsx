@@ -76,7 +76,7 @@ export default function SEOHead({
       "url": SITE_CONFIG.domain,
       "logo": `${SITE_CONFIG.domain}/vrv-logo.webp`,
       "description": SITE_CONFIG.subTagline,
-      "telephone": [SITE_CONFIG.phone1Formatted, SITE_CONFIG.phone2Formatted],
+      "telephone": SITE_CONFIG.phone1Formatted,
       "email": SITE_CONFIG.email,
       "address": {
         "@type": "PostalAddress",

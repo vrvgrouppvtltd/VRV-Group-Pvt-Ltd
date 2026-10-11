@@ -298,7 +298,6 @@ export default function Footer() {
                 <div>
                   <div className="text-[10px] text-slate-400">Primary Hotline</div>
                   <div className="font-bold text-sm">{SITE_CONFIG.phone1Formatted}</div>
-                   <div className="font-bold text-sm">{SITE_CONFIG.phone2Formatted}</div>
                 </div>
               </a>
 

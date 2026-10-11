@@ -155,13 +155,10 @@ export default function Contact() {
                     <Phone size={18} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-navy">Phone Hotlines</h3>
+                    <h3 className="font-bold text-navy">Phone Hotline</h3>
                     <div className="mt-0.5 space-y-0.5">
                       <a href={`tel:${SITE_CONFIG.phone1}`} className="block text-slate-700 hover:text-gold font-medium">
-                        {SITE_CONFIG.phone1Formatted} (Primary)
-                      </a>
-                      <a href={`tel:${SITE_CONFIG.phone2}`} className="block text-slate-700 hover:text-gold font-medium">
-                        {SITE_CONFIG.phone2Formatted} (Support)
+                        {SITE_CONFIG.phone1Formatted}
                       </a>
                     </div>
                   </div>
