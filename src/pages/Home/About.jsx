@@ -141,13 +141,6 @@ export default function About() {
       desc: 'Supporting company operations, guest experience, and day-to-day coordination with a focus on trust and service quality.'
     },
     {
-      name: 'Mr. Pushkar',
-      role: 'Co-Founder',
-      tag: 'Partnerships',
-      image: "",
-      desc: 'Supporting company operations, guest experience, and day-to-day coordination with a focus on trust and comfortable experiences.'
-    },
-    {
       name: 'Mr. Sarbjot Singh',
       role: 'COO',
       tag: 'Execution',
@@ -709,7 +702,7 @@ export default function About() {
 
 
         {/* ===================== FOUNDERS CARDS ===================== */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-4 xl:gap-5 max-w-7xl mx-auto pb-4 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-4 xl:gap-5 max-w-7xl mx-auto pb-4 items-start">
           {founders.map((founder, idx) => {
             const initials = founder.name
               .replace(/^(Mr|Mrs|Ms|Dr)\.?\s+/i, '')

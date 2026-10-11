@@ -8,7 +8,6 @@ const PRELOAD_IMAGES = [
   '/logo.jpeg',
   '/images/founder/nishant.jpeg',
   '/images/founder/greetika.jpg',
-  '/images/founder/pushkar.jpeg',
   '/images/founder/sarbjot.jpg',
   '/images/founder/bikram.jpeg',
   '/images/hero/vrindavan-hero.jpg',
